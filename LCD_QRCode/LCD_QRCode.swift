@@ -185,13 +185,8 @@ class LCD_QRCode: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         if metadataObjects.count > 0 {
             let metadataObject = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
             
-            //声音地址 只能播放不超过30秒的声音
-            let path = NSBundle.mainBundle().pathForResource("noticeMusic", ofType: "wav")
-            //建立的systemSoundID对象
-            var soundID : SystemSoundID = 0
-            let baseURL = NSURL.fileURLWithPath(path!)
-            AudioServicesCreateSystemSoundID(baseURL, &soundID)
-            AudioServicesPlaySystemSound(soundID)
+            //播放声音/震动
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
             
             scanStop()
             _scanViewStop = true

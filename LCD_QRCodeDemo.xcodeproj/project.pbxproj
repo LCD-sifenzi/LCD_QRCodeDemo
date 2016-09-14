@@ -14,7 +14,6 @@
 		AB8EA8401D87E7A9001A6C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA83E1D87E7A9001A6C71 /* Main.storyboard */; };
 		AB8EA8421D87E7A9001A6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8411D87E7A9001A6C71 /* Assets.xcassets */; };
 		AB8EA8451D87E7A9001A6C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8431D87E7A9001A6C71 /* LaunchScreen.storyboard */; };
-		AB8EA8661D87E918001A6C71 /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8541D87E918001A6C71 /* noticeMusic.wav */; };
 		AB8EA8671D87E918001A6C71 /* QR_二维码.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8551D87E918001A6C71 /* QR_二维码.png */; };
 		AB8EA86A1D87E918001A6C71 /* QR_关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8581D87E918001A6C71 /* QR_关闭.png */; };
 		AB8EA86C1D87E918001A6C71 /* QR_扫描线1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */; };
@@ -37,7 +36,6 @@
 		AB8EA8411D87E7A9001A6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8EA8441D87E7A9001A6C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8EA8461D87E7A9001A6C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB8EA8541D87E918001A6C71 /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
 		AB8EA8551D87E918001A6C71 /* QR_二维码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_二维码.png"; sourceTree = "<group>"; };
 		AB8EA8581D87E918001A6C71 /* QR_关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_关闭.png"; sourceTree = "<group>"; };
 		AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_扫描线1.png"; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 		AB8EA8531D87E918001A6C71 /* QRImage */ = {
 			isa = PBXGroup;
 			children = (
-				AB8EA8541D87E918001A6C71 /* noticeMusic.wav */,
 				AB8EA8551D87E918001A6C71 /* QR_二维码.png */,
 				AB8EA8581D87E918001A6C71 /* QR_关闭.png */,
 				AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */,
@@ -185,7 +182,6 @@
 				AB8EA8421D87E7A9001A6C71 /* Assets.xcassets in Resources */,
 				AB8EA8761D87E918001A6C71 /* QR_角3.png in Resources */,
 				AB8EA8731D87E918001A6C71 /* QR_相册.png in Resources */,
-				AB8EA8661D87E918001A6C71 /* noticeMusic.wav in Resources */,
 				AB8EA8671D87E918001A6C71 /* QR_二维码.png in Resources */,
 				AB8EA86C1D87E918001A6C71 /* QR_扫描线1.png in Resources */,
 				AB1A789C1D87F530006CD473 /* LCD_QRCode.xib in Resources */,
