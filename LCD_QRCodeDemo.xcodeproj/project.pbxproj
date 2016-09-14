@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1A789B1D87F530006CD473 /* LCD_QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A78991D87F530006CD473 /* LCD_QRCode.swift */; };
+		AB1A789C1D87F530006CD473 /* LCD_QRCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1A789A1D87F530006CD473 /* LCD_QRCode.xib */; };
+		AB8EA83B1D87E7A9001A6C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8EA83A1D87E7A9001A6C71 /* AppDelegate.swift */; };
+		AB8EA83D1D87E7A9001A6C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8EA83C1D87E7A9001A6C71 /* ViewController.swift */; };
+		AB8EA8401D87E7A9001A6C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA83E1D87E7A9001A6C71 /* Main.storyboard */; };
+		AB8EA8421D87E7A9001A6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8411D87E7A9001A6C71 /* Assets.xcassets */; };
+		AB8EA8451D87E7A9001A6C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8431D87E7A9001A6C71 /* LaunchScreen.storyboard */; };
+		AB8EA8661D87E918001A6C71 /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8541D87E918001A6C71 /* noticeMusic.wav */; };
+		AB8EA8671D87E918001A6C71 /* QR_二维码.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8551D87E918001A6C71 /* QR_二维码.png */; };
+		AB8EA86A1D87E918001A6C71 /* QR_关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8581D87E918001A6C71 /* QR_关闭.png */; };
+		AB8EA86C1D87E918001A6C71 /* QR_扫描线1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */; };
+		AB8EA8711D87E918001A6C71 /* QR_灯关.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA85F1D87E918001A6C71 /* QR_灯关.png */; };
+		AB8EA8721D87E918001A6C71 /* QR_灯开.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8601D87E918001A6C71 /* QR_灯开.png */; };
+		AB8EA8731D87E918001A6C71 /* QR_相册.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8611D87E918001A6C71 /* QR_相册.png */; };
+		AB8EA8741D87E918001A6C71 /* QR_角1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8621D87E918001A6C71 /* QR_角1.png */; };
+		AB8EA8751D87E918001A6C71 /* QR_角2.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8631D87E918001A6C71 /* QR_角2.png */; };
+		AB8EA8761D87E918001A6C71 /* QR_角3.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8641D87E918001A6C71 /* QR_角3.png */; };
+		AB8EA8771D87E918001A6C71 /* QR_角4.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8EA8651D87E918001A6C71 /* QR_角4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB1A78991D87F530006CD473 /* LCD_QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_QRCode.swift; sourceTree = "<group>"; };
+		AB1A789A1D87F530006CD473 /* LCD_QRCode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCD_QRCode.xib; sourceTree = "<group>"; };
+		AB8EA8371D87E7A9001A6C71 /* LCD_QRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCD_QRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8EA83A1D87E7A9001A6C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8EA83C1D87E7A9001A6C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8EA83F1D87E7A9001A6C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8EA8411D87E7A9001A6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8EA8441D87E7A9001A6C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8EA8461D87E7A9001A6C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8EA8541D87E918001A6C71 /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
+		AB8EA8551D87E918001A6C71 /* QR_二维码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_二维码.png"; sourceTree = "<group>"; };
+		AB8EA8581D87E918001A6C71 /* QR_关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_关闭.png"; sourceTree = "<group>"; };
+		AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_扫描线1.png"; sourceTree = "<group>"; };
+		AB8EA85F1D87E918001A6C71 /* QR_灯关.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_灯关.png"; sourceTree = "<group>"; };
+		AB8EA8601D87E918001A6C71 /* QR_灯开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_灯开.png"; sourceTree = "<group>"; };
+		AB8EA8611D87E918001A6C71 /* QR_相册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_相册.png"; sourceTree = "<group>"; };
+		AB8EA8621D87E918001A6C71 /* QR_角1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_角1.png"; sourceTree = "<group>"; };
+		AB8EA8631D87E918001A6C71 /* QR_角2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_角2.png"; sourceTree = "<group>"; };
+		AB8EA8641D87E918001A6C71 /* QR_角3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_角3.png"; sourceTree = "<group>"; };
+		AB8EA8651D87E918001A6C71 /* QR_角4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR_角4.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8EA8341D87E7A9001A6C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8EA82E1D87E7A9001A6C71 = {
+			isa = PBXGroup;
+			children = (
+				AB8EA84C1D87E7CD001A6C71 /* LCD_QRCode */,
+				AB8EA8391D87E7A9001A6C71 /* LCD_QRCodeDemo */,
+				AB8EA8381D87E7A9001A6C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8EA8381D87E7A9001A6C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8EA8371D87E7A9001A6C71 /* LCD_QRCodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8EA8391D87E7A9001A6C71 /* LCD_QRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB8EA83A1D87E7A9001A6C71 /* AppDelegate.swift */,
+				AB8EA83C1D87E7A9001A6C71 /* ViewController.swift */,
+				AB8EA83E1D87E7A9001A6C71 /* Main.storyboard */,
+				AB8EA8411D87E7A9001A6C71 /* Assets.xcassets */,
+				AB8EA8431D87E7A9001A6C71 /* LaunchScreen.storyboard */,
+				AB8EA8461D87E7A9001A6C71 /* Info.plist */,
+			);
+			path = LCD_QRCodeDemo;
+			sourceTree = "<group>";
+		};
+		AB8EA84C1D87E7CD001A6C71 /* LCD_QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A78991D87F530006CD473 /* LCD_QRCode.swift */,
+				AB1A789A1D87F530006CD473 /* LCD_QRCode.xib */,
+				AB8EA8531D87E918001A6C71 /* QRImage */,
+			);
+			path = LCD_QRCode;
+			sourceTree = "<group>";
+		};
+		AB8EA8531D87E918001A6C71 /* QRImage */ = {
+			isa = PBXGroup;
+			children = (
+				AB8EA8541D87E918001A6C71 /* noticeMusic.wav */,
+				AB8EA8551D87E918001A6C71 /* QR_二维码.png */,
+				AB8EA8581D87E918001A6C71 /* QR_关闭.png */,
+				AB8EA85A1D87E918001A6C71 /* QR_扫描线1.png */,
+				AB8EA85F1D87E918001A6C71 /* QR_灯关.png */,
+				AB8EA8601D87E918001A6C71 /* QR_灯开.png */,
+				AB8EA8611D87E918001A6C71 /* QR_相册.png */,
+				AB8EA8621D87E918001A6C71 /* QR_角1.png */,
+				AB8EA8631D87E918001A6C71 /* QR_角2.png */,
+				AB8EA8641D87E918001A6C71 /* QR_角3.png */,
+				AB8EA8651D87E918001A6C71 /* QR_角4.png */,
+			);
+			path = QRImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8EA8361D87E7A9001A6C71 /* LCD_QRCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8EA8491D87E7A9001A6C71 /* Build configuration list for PBXNativeTarget "LCD_QRCodeDemo" */;
+			buildPhases = (
+				AB8EA8331D87E7A9001A6C71 /* Sources */,
+				AB8EA8341D87E7A9001A6C71 /* Frameworks */,
+				AB8EA8351D87E7A9001A6C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCD_QRCodeDemo;
+			productName = LCD_QRCodeDemo;
+			productReference = AB8EA8371D87E7A9001A6C71 /* LCD_QRCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8EA82F1D87E7A9001A6C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sifenzi;
+				TargetAttributes = {
+					AB8EA8361D87E7A9001A6C71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AB8EA8321D87E7A9001A6C71 /* Build configuration list for PBXProject "LCD_QRCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8EA82E1D87E7A9001A6C71;
+			productRefGroup = AB8EA8381D87E7A9001A6C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8EA8361D87E7A9001A6C71 /* LCD_QRCodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8EA8351D87E7A9001A6C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8EA8711D87E918001A6C71 /* QR_灯关.png in Resources */,
+				AB8EA8451D87E7A9001A6C71 /* LaunchScreen.storyboard in Resources */,
+				AB8EA8721D87E918001A6C71 /* QR_灯开.png in Resources */,
+				AB8EA8771D87E918001A6C71 /* QR_角4.png in Resources */,
+				AB8EA86A1D87E918001A6C71 /* QR_关闭.png in Resources */,
+				AB8EA8421D87E7A9001A6C71 /* Assets.xcassets in Resources */,
+				AB8EA8761D87E918001A6C71 /* QR_角3.png in Resources */,
+				AB8EA8731D87E918001A6C71 /* QR_相册.png in Resources */,
+				AB8EA8661D87E918001A6C71 /* noticeMusic.wav in Resources */,
+				AB8EA8671D87E918001A6C71 /* QR_二维码.png in Resources */,
+				AB8EA86C1D87E918001A6C71 /* QR_扫描线1.png in Resources */,
+				AB1A789C1D87F530006CD473 /* LCD_QRCode.xib in Resources */,
+				AB8EA8401D87E7A9001A6C71 /* Main.storyboard in Resources */,
+				AB8EA8751D87E918001A6C71 /* QR_角2.png in Resources */,
+				AB8EA8741D87E918001A6C71 /* QR_角1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8EA8331D87E7A9001A6C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8EA83D1D87E7A9001A6C71 /* ViewController.swift in Sources */,
+				AB8EA83B1D87E7A9001A6C71 /* AppDelegate.swift in Sources */,
+				AB1A789B1D87F530006CD473 /* LCD_QRCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8EA83E1D87E7A9001A6C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8EA83F1D87E7A9001A6C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8EA8431D87E7A9001A6C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8EA8441D87E7A9001A6C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8EA8471D87E7A9001A6C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8EA8481D87E7A9001A6C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8EA84A1D87E7A9001A6C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCD_QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sifenzi.LCD-QRCodeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB8EA84B1D87E7A9001A6C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCD_QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sifenzi.LCD-QRCodeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8EA8321D87E7A9001A6C71 /* Build configuration list for PBXProject "LCD_QRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8EA8471D87E7A9001A6C71 /* Debug */,
+				AB8EA8481D87E7A9001A6C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8EA8491D87E7A9001A6C71 /* Build configuration list for PBXNativeTarget "LCD_QRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8EA84A1D87E7A9001A6C71 /* Debug */,
+				AB8EA84B1D87E7A9001A6C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8EA82F1D87E7A9001A6C71 /* Project object */;
+}
